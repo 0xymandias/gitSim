@@ -23,12 +23,12 @@ This tool is useful if you want to populate a GitHub repository with activity, w
 ## Setup
 
 1. Clone or Place the Script  
-   Save the script (for example, as contribute.py) into your desired working directory.
+   Save the script (for example, as gitSim.py) into your desired working directory.
 
 2. Configure Git Credentials  
    Ensure your local Git configuration uses the email address registered on your GitHub account. For example, run:
-   git config --global user.name "Your Name"
-   git config --global user.email "your_email@example.com"
+   `git config --global user.name "Your Name"`
+   `git config --global user.email "your_email@example.com"`
 
 3. Set Environment Variables  
    - GITHUB_TOKEN: For example, in PowerShell, run:
